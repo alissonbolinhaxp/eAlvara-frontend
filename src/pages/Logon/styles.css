@@ -11,15 +11,20 @@
 
 .logon-container section.form {
   width: 100%;
-  max-width: 350px;
+  max-width: 500px;
   margin-right: 30px;
 }
 
 .logon-container section.form form {
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .logon-container section.form form h1 {
   font-size: 32px;
   margin-bottom: 32px;
+}
+
+.logon-container section.form input {
+
+  margin: 3px;
 }

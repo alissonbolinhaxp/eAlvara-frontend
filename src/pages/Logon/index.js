@@ -5,7 +5,7 @@ import { FiLogIn } from 'react-icons/fi';
 import api from '../../services/api';
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import heroesImg from '../../assets/heroes.png';
 
 export default function Logon() {
@@ -40,7 +40,7 @@ export default function Logon() {
       <section className="form">
         <img src={logoImg} alt="eAlvara" />
         <form onSubmit={handleLogin}>
-          <h1>Teste de commit</h1>
+          <h1>Preencha abaixo, os seus dados</h1>
           <input type="text"
             placeholder="CPF"
             value={cpf} onChange={e => setCpf(e.target.value)} />

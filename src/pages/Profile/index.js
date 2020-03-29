@@ -5,7 +5,7 @@ import { FiPower } from 'react-icons/fi';
 import api from '../../services/api';
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 
 export default function Profile() {
   const [alvaras, setAlvaras] = useState([]);

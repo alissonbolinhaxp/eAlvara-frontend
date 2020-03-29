@@ -11,6 +11,13 @@ body {
   font: 400 14px Roboto, sans-serif;
   background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
+  background-image: url("assets/bg-hands-oabx.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
+
+  
 }
 
 input,

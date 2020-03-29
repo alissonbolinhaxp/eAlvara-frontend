@@ -5,7 +5,7 @@ import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
 import './styles.css';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 
 export default function Advogado() {
   const [nome, setNome] = useState('');
@@ -39,6 +39,8 @@ export default function Advogado() {
     }
   }
 
+  
+
   return (
     <div className="register-container">
       <div className="container">
@@ -48,7 +50,7 @@ export default function Advogado() {
           <p>A Central Eletrônica de Alvarás é uma ferramenta da OAB/PE voltada exclusivamente para advogados com o intuito de evitar deslocamentos e o comparecimento presencial a uma agência para levantamento de alvarás, RPV’s e/ou precatórios. </p>
           <p>A tecnologia visa evitar o contato físico e exposição de advogados, partes e bancários, a riscos associados ao coronavírus (COVID-19).  </p>
           <p>A participação da OAB/PE consiste tão somente na orientação, recebimento e encaminhamento dos documentos às instituições financeiras responsáveis pelo pagamento. </p>
-          <p>A OAB/PE não confere documentos e não tem ingerência no processo de pagamento, o que será feito pelo banco no menor tempo possível – o que pode não ser tão rápido em virtude das limitações impostas pelas leis vigentes e pela situação extraordinária atual. </p>
+          <p>A <b>OAB/PE</b> não confere documentos e não tem ingerência no processo de pagamento, o que será feito pelo banco no menor tempo possível – o que pode não ser tão rápido em virtude das limitações impostas pelas leis vigentes e pela situação extraordinária atual. </p>
           <Link className="back-link" to="/">
             <FiArrowLeft size={16} color="#E02041" />
             Voltar para o login
